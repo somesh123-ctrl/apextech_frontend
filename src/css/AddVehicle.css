@@ -1,0 +1,55 @@
+  
+.form-container {
+    background-color: #333; 
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc; 
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="number"],
+  .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #666; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #555; 
+    color: #fff; 
+  }
+  
+  .form-container select {
+    width: calc(100% - 22px); 
+    padding-right: 22px; 
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("data:image/svg+xml;utf8,<svg fill='%23fff' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") no-repeat right 10px center/12px;
+    background-color: #555; 
+    color: #fff; 
+    border: 1px solid #666; 
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-container button {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3; 
+  }
+  

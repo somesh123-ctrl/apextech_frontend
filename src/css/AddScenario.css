@@ -1,0 +1,88 @@
+.form-container {
+    background-color: #333; 
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc; 
+  }
+  
+  .form-container input[type="text"],
+  .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #555; 
+    color: #fff; 
+  }
+  
+  .form-container button {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3; 
+  }
+  
+  
+  .scenarios-container {
+    background-color: #2b2b2b; 
+    color: #ffffff; 
+    padding: 20px;
+  }
+  
+  .scenarios-container h2 {
+    color: #ffffff; 
+  }
+  
+  .scenarios-container button {
+    background-color: #363636; 
+    color: #ffffff; 
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .scenarios-container button:hover {
+    background-color: #555;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ffffff; 
+  }
+  
+  table th {
+    background-color: #363636; 
+    color: #ffffff; 
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #ed5151; 
+  }
+  
+  table tbody tr:hover {
+    background-color: #555; 
+  }
+  
+  
